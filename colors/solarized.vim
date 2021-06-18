@@ -280,7 +280,7 @@ elseif (has("gui_running") && g:solarized_degrade == 1)
     let s:blue        = "#0087ff"
     let s:cyan        = "#00afaf"
     let s:green       = "#5f8700"
-elseif g:solarized_mode3 == 1
+elseif g:solarized_termcolors != 256 && g:solarized_mode3 == 1
     " Solarized mode 3
     let s:vmode       = "cterm"
     let s:base03      = "8"
