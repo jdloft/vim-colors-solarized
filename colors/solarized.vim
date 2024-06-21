@@ -221,6 +221,7 @@ call s:SetOption("visibility","normal")
 call s:SetOption("diffmode","normal")
 call s:SetOption("hitrail",0)
 call s:SetOption("menu",1)
+call s:SetOption("mode3",0)
 
 "}}}
 " Colorscheme initialization "{{{
