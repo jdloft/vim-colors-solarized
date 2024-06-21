@@ -556,7 +556,9 @@ endif
 " note that link syntax to avoid duplicate configuration doesn't work with the
 " exe compiled formats
 
-if v:version < 800 " workaround when we don't have https://github.com/vim/vim/pull/1710
+" workaround when we don't have https://github.com/vim/vim/pull/1710
+" NOTE: nvim version may not be exactly correct
+if v:version < 800 || (has('nvim') && !has('nvim-0.3.4'))
     let s:old_bg = &background
     exe "hi! Normal"         .s:fmt_none   .s:fg_base0  .s:bg_back
     let &background = s:old_bg
