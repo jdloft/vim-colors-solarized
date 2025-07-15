@@ -284,12 +284,12 @@ elseif (has("gui_running") && g:solarized_degrade == 1)
 elseif g:solarized_termcolors != 256 && g:solarized_mode3 == 1
     " Solarized mode 3
     let s:vmode       = "cterm"
-    let s:base03      = "21"
+    let s:base03      = "255"
     let s:base02      = "0"
-    let s:base01      = "16"
-    let s:base00      = "17"
-    let s:base0       = "18"
-    let s:base1       = "20"
+    let s:base01      = "240"
+    let s:base00      = "66"
+    let s:base0       = "8"
+    let s:base1       = "245"
     let s:base2       = "7"
     let s:base3       = "15"
     let s:yellow      = "3"
